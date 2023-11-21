@@ -1,5 +1,5 @@
 # Loan-Approval-Analysis
-**Problem Statement for Loan Approval Prediction**
+**Problem Statement for Loan Approval Analysis**
 
 *Introduction*:
 
