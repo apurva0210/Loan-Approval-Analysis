@@ -86,7 +86,7 @@ The loan approval dataset is a comprehensive collection of financial records and
    - Indicates the total value of assets owned by the applicant, contributing to their overall financial profile.
 
 7. **Loan Status**:
-   - The target variable, indicating whether the loan was approved or not. This binary classification is the focus of predictive modeling.
+   - The target variable, indicates whether the loan was approved or not. This binary classification is the focus of predictive modelling.
 
 *Dataset Usage*:
 
@@ -116,12 +116,17 @@ This loan approval dataset serves as a valuable resource for addressing challeng
 
 *Conclusion*:
 Through the exploratory data analysis, several key factors have been identified as significant contributors to the loan approval process:
-1.CIBIL Score: Individuals with higher CIBIL scores exhibit a greater likelihood of loan approval.
-2.Number of Dependents: The data suggests that having more dependents correlates with a decreased likelihood of loan approval.
-3.Assets: Higher asset ownership, encompassing both movable and immovable assets, is associated with an increased chance of loan approval.
-4.Loan Amount and Tenure: There is a trend indicating that individuals with higher loan amounts and shorter tenures have higher chances of loan approval.
+
+1. CIBIL Score: Individuals with higher CIBIL scores exhibit a greater likelihood of loan approval.
+
+2. Number of Dependents: The data suggests that having more dependents correlates with a decreased likelihood of loan approval.
+
+3. Assets: Higher asset ownership, encompassing both movable and immovable assets, is associated with an increased chance of loan approval.
+
+4. Loan Amount and Tenure: There is a trend indicating that individuals with higher loan amounts and shorter tenures have higher chances of loan approval.
+
 
 The Decision Tree Classifier and Random Forest Classifier outperformed other models with an accuracy of 96%, indicating their effectiveness in predicting loan approval status. The transparent decision tree structure and ensemble approach contribute to their success. Logistic Regression, SVM, Naive Bayes, and KNN showed lower accuracies (60% to 92%), suggesting potential limitations in capturing dataset complexities. Further analysis and feature engineering may enhance the performance of these models.
 
-1
+
 ​
